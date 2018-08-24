@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A46CE821308FE800B550FF /* KWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A46CE621308FE800B550FF /* KWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A46CF02130901700B550FF /* DrawerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA895D2004E80E00F9FD86 /* DrawerController+Rx.swift */; };
+		32A46CF12130901700B550FF /* RxDrawerControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA895B2004E6C200F9FD86 /* RxDrawerControllerDelegateProxy.swift */; };
+		32A46CF22130901700B550FF /* DrawerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C6D1E4F729D00E2B7A7 /* DrawerAnimator.swift */; };
+		32A46CF32130901700B550FF /* DrawerBackEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C6E1E4F729D00E2B7A7 /* DrawerBackEaseAnimator.swift */; };
+		32A46CF42130901700B550FF /* DrawerBounceEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C6F1E4F729D00E2B7A7 /* DrawerBounceEaseAnimator.swift */; };
+		32A46CF52130901700B550FF /* DrawerCircEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C701E4F729D00E2B7A7 /* DrawerCircEaseAnimator.swift */; };
+		32A46CF62130901700B550FF /* DrawerCubicEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C711E4F729D00E2B7A7 /* DrawerCubicEaseAnimator.swift */; };
+		32A46CF72130901700B550FF /* DrawerCurveEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C721E4F729D00E2B7A7 /* DrawerCurveEaseAnimator.swift */; };
+		32A46CF82130901700B550FF /* DrawerElasticEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C731E4F729D00E2B7A7 /* DrawerElasticEaseAnimator.swift */; };
+		32A46CF92130901700B550FF /* DrawerExpoEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C741E4F729D00E2B7A7 /* DrawerExpoEaseAnimator.swift */; };
+		32A46CFA2130901700B550FF /* DrawerLinearAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C751E4F729D00E2B7A7 /* DrawerLinearAnimator.swift */; };
+		32A46CFB2130901700B550FF /* DrawerQuadEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C761E4F729D00E2B7A7 /* DrawerQuadEaseAnimator.swift */; };
+		32A46CFC2130901700B550FF /* DrawerQuartEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C771E4F729D00E2B7A7 /* DrawerQuartEaseAnimator.swift */; };
+		32A46CFD2130901700B550FF /* DrawerQuintEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C781E4F729D00E2B7A7 /* DrawerQuintEaseAnimator.swift */; };
+		32A46CFE2130901700B550FF /* DrawerSineEaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C791E4F729D00E2B7A7 /* DrawerSineEaseAnimator.swift */; };
+		32A46CFF2130901700B550FF /* DrawerSpringAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C7A1E4F729D00E2B7A7 /* DrawerSpringAnimator.swift */; };
+		32A46D002130901700B550FF /* DrawerTickAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C7B1E4F729D00E2B7A7 /* DrawerTickAnimator.swift */; };
+		32A46D012130901700B550FF /* DrawerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C7E1E4F729D00E2B7A7 /* DrawerContent.swift */; };
+		32A46D022130901700B550FF /* DrawerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C7F1E4F729D00E2B7A7 /* DrawerOption.swift */; };
+		32A46D032130901700B550FF /* DrawerEmbedLeftControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C811E4F729D00E2B7A7 /* DrawerEmbedLeftControllerSegue.swift */; };
+		32A46D042130901700B550FF /* DrawerEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C821E4F729D00E2B7A7 /* DrawerEmbedMainControllerSegue.swift */; };
+		32A46D052130901700B550FF /* DrawerEmbedRightControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C831E4F729D00E2B7A7 /* DrawerEmbedRightControllerSegue.swift */; };
+		32A46D062130901700B550FF /* DrawerFloatTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C851E4F729D00E2B7A7 /* DrawerFloatTransition.swift */; };
+		32A46D072130901700B550FF /* DrawerFoldTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C861E4F729D00E2B7A7 /* DrawerFoldTransition.swift */; };
+		32A46D082130901700B550FF /* DrawerParallaxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C871E4F729D00E2B7A7 /* DrawerParallaxTransition.swift */; };
+		32A46D092130901700B550FF /* DrawerScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C881E4F729D00E2B7A7 /* DrawerScaleTransition.swift */; };
+		32A46D0A2130901700B550FF /* DrawerSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C891E4F729D00E2B7A7 /* DrawerSlideTransition.swift */; };
+		32A46D0B2130901700B550FF /* DrawerSwingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C8A1E4F729D00E2B7A7 /* DrawerSwingTransition.swift */; };
+		32A46D0C2130901700B550FF /* DrawerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C8B1E4F729D00E2B7A7 /* DrawerTransition.swift */; };
+		32A46D0D2130901700B550FF /* DrawerZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C8C1E4F729D00E2B7A7 /* DrawerZoomTransition.swift */; };
+		32A46D0E2130901700B550FF /* DrawerGestureSensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C8E1E4F729D00E2B7A7 /* DrawerGestureSensitivity.swift */; };
+		32A46D0F2130901700B550FF /* DrawerSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C8F1E4F729D00E2B7A7 /* DrawerSide.swift */; };
+		32A46D102130901700B550FF /* TranslucentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C921E4F729E00E2B7A7 /* TranslucentView.swift */; };
+		32A46D112130901700B550FF /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C7C1E4F729D00E2B7A7 /* DrawerController.swift */; };
+		32A46D122130901700B550FF /* UIViewController+DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C901E4F729E00E2B7A7 /* UIViewController+DrawerController.swift */; };
+		32A46D132130901700B550FF /* LeftMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C5B1E4F728C00E2B7A7 /* LeftMotionViewController.swift */; };
+		32A46D142130901700B550FF /* LeftOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C5C1E4F728C00E2B7A7 /* LeftOptionViewController.swift */; };
+		32A46D152130901700B550FF /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C5D1E4F728C00E2B7A7 /* LeftViewController.swift */; };
+		32A46D162130901700B550FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C5E1E4F728C00E2B7A7 /* MainViewController.swift */; };
+		32A46D172130901700B550FF /* RightMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C5F1E4F728C00E2B7A7 /* RightMotionViewController.swift */; };
+		32A46D182130901700B550FF /* RightOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C601E4F728C00E2B7A7 /* RightOptionViewController.swift */; };
+		32A46D192130901700B550FF /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C611E4F728C00E2B7A7 /* RightViewController.swift */; };
+		32A46D1A2130901700B550FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C621E4F728C00E2B7A7 /* ViewController.swift */; };
 		9D2D4C421E4F722100E2B7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C3F1E4F722100E2B7A7 /* AppDelegate.swift */; };
 		9D2D4C441E4F722100E2B7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D4C411E4F722100E2B7A7 /* Main.storyboard */; };
 		9D2D4C471E4F723100E2B7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2D4C451E4F723100E2B7A7 /* LaunchScreen.storyboard */; };
@@ -57,8 +101,176 @@
 		C806E5AE0BEE7DBEAF865AC2 /* Pods_KWDrawerController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7D4608B1429FE012C6BB40 /* Pods_KWDrawerController_Example.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		32A46CB521308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8A56AD71AD7424700B4673B;
+			remoteInfo = "RxSwift-iOS";
+		};
+		32A46CB721308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C88BB8711B07E5ED0064D411;
+			remoteInfo = "RxSwift-macOS";
+		};
+		32A46CB921308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2EA280C1BB9B5A200880ED3;
+			remoteInfo = "RxSwift-tvOS";
+		};
+		32A46CBB21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8F0C0021BBBFB8B001B112F;
+			remoteInfo = "RxSwift-watchOS";
+		};
+		32A46CBD21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C809396D1B8A71760088E94D;
+			remoteInfo = "RxCocoa-iOS";
+		};
+		32A46CBF21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C80939E71B8A71840088E94D;
+			remoteInfo = "RxCocoa-macOS";
+		};
+		32A46CC121308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2138C751BB9BE9800339B5C;
+			remoteInfo = "RxCocoa-tvOS";
+		};
+		32A46CC321308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8F0C04B1BBBFBB9001B112F;
+			remoteInfo = "RxCocoa-watchOS";
+		};
+		32A46CC521308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8093BC71B8A71F00088E94D;
+			remoteInfo = "RxBlocking-iOS";
+		};
+		32A46CC721308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8093C451B8A71FC0088E94D;
+			remoteInfo = "RxBlocking-macOS";
+		};
+		32A46CC921308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2EBEB811BB9B99D003A27DC;
+			remoteInfo = "RxBlocking-tvOS";
+		};
+		32A46CCB21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8F0C0581BBBFBCE001B112F;
+			remoteInfo = "RxBlocking-watchOS";
+		};
+		32A46CCD21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C88FA50C1C25C44800CCFEA4;
+			remoteInfo = "RxTest-iOS";
+		};
+		32A46CCF21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C88FA51D1C25C4B500CCFEA4;
+			remoteInfo = "RxTest-macOS";
+		};
+		32A46CD121308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C88FA52E1C25C4C000CCFEA4;
+			remoteInfo = "RxTest-tvOS";
+		};
+		32A46CD321308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C88FA53F1C25C4CC00CCFEA4;
+			remoteInfo = "RxTest-watchOS";
+		};
+		32A46CD521308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C83508C31C386F6F0027C24C;
+			remoteInfo = "AllTests-iOS";
+		};
+		32A46CD721308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C83509841C38740E0027C24C;
+			remoteInfo = "AllTests-tvOS";
+		};
+		32A46CD921308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C83509941C38742C0027C24C;
+			remoteInfo = "AllTests-macOS";
+		};
+		32A46CDB21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C85BA04B1C3878740075D68E;
+			remoteInfo = Microoptimizations;
+		};
+		32A46CDD21308FD000B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8E8BA551E2C181A00A4AC2C;
+			remoteInfo = Benchmarks;
+		};
+		32A46CEC21308FF400B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A56AD61AD7424700B4673B;
+			remoteInfo = "RxSwift-iOS";
+		};
+		32A46CEE21308FF400B550FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C80938F51B8A71760088E94D;
+			remoteInfo = "RxCocoa-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1C925ED7E7E9258F55B31377 /* Pods-KWDrawerController-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWDrawerController-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KWDrawerController-Example/Pods-KWDrawerController-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		32A46C9D21308FD000B550FF /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = ../../RXSwift/Rx.xcodeproj; sourceTree = "<group>"; };
+		32A46CE421308FE700B550FF /* KWDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KWDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A46CE621308FE800B550FF /* KWDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWDrawer.h; sourceTree = "<group>"; };
+		32A46CE721308FE800B550FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B3DBE7050D31D5BF4626964 /* Pods-KWDrawerController-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWDrawerController-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KWDrawerController-Example/Pods-KWDrawerController-Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D2D4C2A1E4F71CF00E2B7A7 /* KWDrawerController-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWDrawerController-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2D4C3F1E4F722100E2B7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -113,6 +325,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		32A46CE021308FE700B550FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D2D4C271E4F71CF00E2B7A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +343,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32A46C9E21308FD000B550FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A46CB621308FD000B550FF /* RxSwift.framework */,
+				32A46CB821308FD000B550FF /* RxSwift.framework */,
+				32A46CBA21308FD000B550FF /* RxSwift.framework */,
+				32A46CBC21308FD000B550FF /* RxSwift.framework */,
+				32A46CBE21308FD000B550FF /* RxCocoa.framework */,
+				32A46CC021308FD000B550FF /* RxCocoa.framework */,
+				32A46CC221308FD000B550FF /* RxCocoa.framework */,
+				32A46CC421308FD000B550FF /* RxCocoa.framework */,
+				32A46CC621308FD000B550FF /* RxBlocking.framework */,
+				32A46CC821308FD000B550FF /* RxBlocking.framework */,
+				32A46CCA21308FD000B550FF /* RxBlocking.framework */,
+				32A46CCC21308FD000B550FF /* RxBlocking.framework */,
+				32A46CCE21308FD000B550FF /* RxTest.framework */,
+				32A46CD021308FD000B550FF /* RxTest.framework */,
+				32A46CD221308FD000B550FF /* RxTest.framework */,
+				32A46CD421308FD000B550FF /* RxTest.framework */,
+				32A46CD621308FD000B550FF /* AllTests-iOS.xctest */,
+				32A46CD821308FD000B550FF /* AllTests-tvOS.xctest */,
+				32A46CDA21308FD000B550FF /* AllTests-macOS.xctest */,
+				32A46CDC21308FD000B550FF /* PerformanceTests.app */,
+				32A46CDE21308FD000B550FF /* Benchmarks.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A46CE521308FE800B550FF /* KWDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				32A46CE621308FE800B550FF /* KWDrawer.h */,
+				32A46CE721308FE800B550FF /* Info.plist */,
+			);
+			path = KWDrawer;
+			sourceTree = "<group>";
+		};
 		9CAB31398E8FC1A0AFCC0F02 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +392,9 @@
 		9D2D4C211E4F71CF00E2B7A7 = {
 			isa = PBXGroup;
 			children = (
+				32A46C9D21308FD000B550FF /* Rx.xcodeproj */,
 				9D2D4C2C1E4F71CF00E2B7A7 /* KWDrawerController-Example */,
+				32A46CE521308FE800B550FF /* KWDrawer */,
 				9D2D4C2B1E4F71CF00E2B7A7 /* Products */,
 				9CAB31398E8FC1A0AFCC0F02 /* Pods */,
 				C2FB08FA74310FEF2A6FCCC5 /* Frameworks */,
@@ -147,6 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				9D2D4C2A1E4F71CF00E2B7A7 /* KWDrawerController-Example.app */,
+				32A46CE421308FE700B550FF /* KWDrawer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -289,7 +548,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		32A46CE121308FE700B550FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A46CE821308FE800B550FF /* KWDrawer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		32A46CE321308FE700B550FF /* KWDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A46CE921308FE800B550FF /* Build configuration list for PBXNativeTarget "KWDrawer" */;
+			buildPhases = (
+				32A46CDF21308FE700B550FF /* Sources */,
+				32A46CE021308FE700B550FF /* Frameworks */,
+				32A46CE121308FE700B550FF /* Headers */,
+				32A46CE221308FE700B550FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A46CED21308FF400B550FF /* PBXTargetDependency */,
+				32A46CEF21308FF400B550FF /* PBXTargetDependency */,
+			);
+			name = KWDrawer;
+			productName = KWDrawer;
+			productReference = 32A46CE421308FE700B550FF /* KWDrawer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9D2D4C291E4F71CF00E2B7A7 /* KWDrawerController-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D2D4C3C1E4F71CF00E2B7A7 /* Build configuration list for PBXNativeTarget "KWDrawerController-Example" */;
@@ -320,6 +610,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Kawoou;
 				TargetAttributes = {
+					32A46CE321308FE700B550FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = B6ZDV9VE3Y;
+						ProvisioningStyle = Automatic;
+					};
 					9D2D4C291E4F71CF00E2B7A7 = {
 						CreatedOnToolsVersion = 8.2;
 						LastSwiftMigration = 0820;
@@ -338,14 +633,179 @@
 			mainGroup = 9D2D4C211E4F71CF00E2B7A7;
 			productRefGroup = 9D2D4C2B1E4F71CF00E2B7A7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 32A46C9E21308FD000B550FF /* Products */;
+					ProjectRef = 32A46C9D21308FD000B550FF /* Rx.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9D2D4C291E4F71CF00E2B7A7 /* KWDrawerController-Example */,
+				32A46CE321308FE700B550FF /* KWDrawer */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		32A46CB621308FD000B550FF /* RxSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxSwift.framework;
+			remoteRef = 32A46CB521308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CB821308FD000B550FF /* RxSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxSwift.framework;
+			remoteRef = 32A46CB721308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CBA21308FD000B550FF /* RxSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxSwift.framework;
+			remoteRef = 32A46CB921308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CBC21308FD000B550FF /* RxSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxSwift.framework;
+			remoteRef = 32A46CBB21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CBE21308FD000B550FF /* RxCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxCocoa.framework;
+			remoteRef = 32A46CBD21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CC021308FD000B550FF /* RxCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxCocoa.framework;
+			remoteRef = 32A46CBF21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CC221308FD000B550FF /* RxCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxCocoa.framework;
+			remoteRef = 32A46CC121308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CC421308FD000B550FF /* RxCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxCocoa.framework;
+			remoteRef = 32A46CC321308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CC621308FD000B550FF /* RxBlocking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxBlocking.framework;
+			remoteRef = 32A46CC521308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CC821308FD000B550FF /* RxBlocking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxBlocking.framework;
+			remoteRef = 32A46CC721308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CCA21308FD000B550FF /* RxBlocking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxBlocking.framework;
+			remoteRef = 32A46CC921308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CCC21308FD000B550FF /* RxBlocking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxBlocking.framework;
+			remoteRef = 32A46CCB21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CCE21308FD000B550FF /* RxTest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxTest.framework;
+			remoteRef = 32A46CCD21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CD021308FD000B550FF /* RxTest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxTest.framework;
+			remoteRef = 32A46CCF21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CD221308FD000B550FF /* RxTest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxTest.framework;
+			remoteRef = 32A46CD121308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CD421308FD000B550FF /* RxTest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RxTest.framework;
+			remoteRef = 32A46CD321308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CD621308FD000B550FF /* AllTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AllTests-iOS.xctest";
+			remoteRef = 32A46CD521308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CD821308FD000B550FF /* AllTests-tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AllTests-tvOS.xctest";
+			remoteRef = 32A46CD721308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CDA21308FD000B550FF /* AllTests-macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AllTests-macOS.xctest";
+			remoteRef = 32A46CD921308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CDC21308FD000B550FF /* PerformanceTests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			name = PerformanceTests.app;
+			path = Microoptimizations.app;
+			remoteRef = 32A46CDB21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32A46CDE21308FD000B550FF /* Benchmarks.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Benchmarks.xctest;
+			remoteRef = 32A46CDD21308FD000B550FF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		32A46CE221308FE700B550FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D2D4C281E4F71CF00E2B7A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +875,56 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		32A46CDF21308FE700B550FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A46CF02130901700B550FF /* DrawerController+Rx.swift in Sources */,
+				32A46CF12130901700B550FF /* RxDrawerControllerDelegateProxy.swift in Sources */,
+				32A46CF22130901700B550FF /* DrawerAnimator.swift in Sources */,
+				32A46CF32130901700B550FF /* DrawerBackEaseAnimator.swift in Sources */,
+				32A46CF42130901700B550FF /* DrawerBounceEaseAnimator.swift in Sources */,
+				32A46CF52130901700B550FF /* DrawerCircEaseAnimator.swift in Sources */,
+				32A46CF62130901700B550FF /* DrawerCubicEaseAnimator.swift in Sources */,
+				32A46CF72130901700B550FF /* DrawerCurveEaseAnimator.swift in Sources */,
+				32A46CF82130901700B550FF /* DrawerElasticEaseAnimator.swift in Sources */,
+				32A46CF92130901700B550FF /* DrawerExpoEaseAnimator.swift in Sources */,
+				32A46CFA2130901700B550FF /* DrawerLinearAnimator.swift in Sources */,
+				32A46CFB2130901700B550FF /* DrawerQuadEaseAnimator.swift in Sources */,
+				32A46CFC2130901700B550FF /* DrawerQuartEaseAnimator.swift in Sources */,
+				32A46CFD2130901700B550FF /* DrawerQuintEaseAnimator.swift in Sources */,
+				32A46CFE2130901700B550FF /* DrawerSineEaseAnimator.swift in Sources */,
+				32A46CFF2130901700B550FF /* DrawerSpringAnimator.swift in Sources */,
+				32A46D002130901700B550FF /* DrawerTickAnimator.swift in Sources */,
+				32A46D012130901700B550FF /* DrawerContent.swift in Sources */,
+				32A46D022130901700B550FF /* DrawerOption.swift in Sources */,
+				32A46D032130901700B550FF /* DrawerEmbedLeftControllerSegue.swift in Sources */,
+				32A46D042130901700B550FF /* DrawerEmbedMainControllerSegue.swift in Sources */,
+				32A46D052130901700B550FF /* DrawerEmbedRightControllerSegue.swift in Sources */,
+				32A46D062130901700B550FF /* DrawerFloatTransition.swift in Sources */,
+				32A46D072130901700B550FF /* DrawerFoldTransition.swift in Sources */,
+				32A46D082130901700B550FF /* DrawerParallaxTransition.swift in Sources */,
+				32A46D092130901700B550FF /* DrawerScaleTransition.swift in Sources */,
+				32A46D0A2130901700B550FF /* DrawerSlideTransition.swift in Sources */,
+				32A46D0B2130901700B550FF /* DrawerSwingTransition.swift in Sources */,
+				32A46D0C2130901700B550FF /* DrawerTransition.swift in Sources */,
+				32A46D0D2130901700B550FF /* DrawerZoomTransition.swift in Sources */,
+				32A46D0E2130901700B550FF /* DrawerGestureSensitivity.swift in Sources */,
+				32A46D0F2130901700B550FF /* DrawerSide.swift in Sources */,
+				32A46D102130901700B550FF /* TranslucentView.swift in Sources */,
+				32A46D112130901700B550FF /* DrawerController.swift in Sources */,
+				32A46D122130901700B550FF /* UIViewController+DrawerController.swift in Sources */,
+				32A46D132130901700B550FF /* LeftMotionViewController.swift in Sources */,
+				32A46D142130901700B550FF /* LeftOptionViewController.swift in Sources */,
+				32A46D152130901700B550FF /* LeftViewController.swift in Sources */,
+				32A46D162130901700B550FF /* MainViewController.swift in Sources */,
+				32A46D172130901700B550FF /* RightMotionViewController.swift in Sources */,
+				32A46D182130901700B550FF /* RightOptionViewController.swift in Sources */,
+				32A46D192130901700B550FF /* RightViewController.swift in Sources */,
+				32A46D1A2130901700B550FF /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D2D4C261E4F71CF00E2B7A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,6 +978,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		32A46CED21308FF400B550FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RxSwift-iOS";
+			targetProxy = 32A46CEC21308FF400B550FF /* PBXContainerItemProxy */;
+		};
+		32A46CEF21308FF400B550FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RxCocoa-iOS";
+			targetProxy = 32A46CEE21308FF400B550FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		9D2D4C451E4F723100E2B7A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -480,6 +1003,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		32A46CEA21308FE800B550FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B6ZDV9VE3Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INFOPLIST_FILE = KWDrawer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iwsinc.KWDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32A46CEB21308FE800B550FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B6ZDV9VE3Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KWDrawer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iwsinc.KWDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9D2D4C3A1E4F71CF00E2B7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -598,6 +1200,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		32A46CE921308FE800B550FF /* Build configuration list for PBXNativeTarget "KWDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A46CEA21308FE800B550FF /* Debug */,
+				32A46CEB21308FE800B550FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9D2D4C251E4F71CF00E2B7A7 /* Build configuration list for PBXProject "KWDrawerController-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
