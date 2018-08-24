@@ -98,7 +98,6 @@
 		9D2D4CB31E4F729E00E2B7A7 /* TranslucentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D4C921E4F729E00E2B7A7 /* TranslucentView.swift */; };
 		9DDA895C2004E6C200F9FD86 /* RxDrawerControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA895B2004E6C200F9FD86 /* RxDrawerControllerDelegateProxy.swift */; };
 		9DDA895E2004E80E00F9FD86 /* DrawerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA895D2004E80E00F9FD86 /* DrawerController+Rx.swift */; };
-		C806E5AE0BEE7DBEAF865AC2 /* Pods_KWDrawerController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7D4608B1429FE012C6BB40 /* Pods_KWDrawerController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,7 +320,6 @@
 		9D2D4C921E4F729E00E2B7A7 /* TranslucentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslucentView.swift; sourceTree = "<group>"; };
 		9DDA895B2004E6C200F9FD86 /* RxDrawerControllerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxDrawerControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		9DDA895D2004E80E00F9FD86 /* DrawerController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrawerController+Rx.swift"; sourceTree = "<group>"; };
-		EB7D4608B1429FE012C6BB40 /* Pods_KWDrawerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWDrawerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,7 +334,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C806E5AE0BEE7DBEAF865AC2 /* Pods_KWDrawerController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +538,6 @@
 		C2FB08FA74310FEF2A6FCCC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB7D4608B1429FE012C6BB40 /* Pods_KWDrawerController_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
