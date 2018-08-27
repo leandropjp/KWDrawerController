@@ -67,3 +67,5 @@ fastlane/test_output
 *.swp
 
 Pods/
+
+\.DS_Store

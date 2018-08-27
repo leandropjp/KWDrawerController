@@ -29,7 +29,11 @@ extension DrawerController: HasDelegate {
     public typealias Delegate = DrawerControllerDelegate
 }
 
-class RxDrawerControllerDelegateProxy: DelegateProxy<DrawerController, DrawerControllerDelegate>, DelegateProxyType, DrawerControllerDelegate {
+class RxDrawerControllerDelegateProxy: DelegateProxy, DelegateProxyType, DrawerControllerDelegate {
+    typealias ParentObject = <#type#>
+    
+    typealias Delegate = <#type#>
+    
     
     /// Typed parent object.
     public private(set) weak var drawerController: DrawerController?
