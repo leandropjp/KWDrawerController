@@ -89,13 +89,14 @@ public class DrawerContent {
         
         viewController.drawerController = nil
     }
+    
     internal func setVisible(_ isVisible: Bool) {
         if isVisible {
             contentView.addSubview(viewController.view)
-            viewController.drawerController?.addChildViewController(viewController)
+            viewController.drawerController?.addChild(viewController)
         } else {
             viewController.view.removeFromSuperview()
-            viewController.removeFromParentViewController()
+            viewController.removeFromParent()
         }
     }
     

@@ -616,9 +616,9 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
         }
         
         if sideContent.isBringToFront {
-            view.bringSubview(toFront: sideContent.contentView)
+            view.bringSubviewToFront(sideContent.contentView)
         } else {
-            view.bringSubview(toFront: mainContent.contentView)
+            view.bringSubviewToFront(mainContent.contentView)
         }
     }
     private func willAnimate(side: DrawerSide, percent: Float) {}

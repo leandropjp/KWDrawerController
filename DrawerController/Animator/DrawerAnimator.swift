@@ -73,7 +73,7 @@ open class DrawerAnimator {
         
         displayLink = { [unowned self] in
             let displayLink = CADisplayLink(target: self, selector: #selector(render))
-            displayLink.add(to: .current, forMode: .defaultRunLoopMode)
+            displayLink.add(to: .current, forMode: .default)
             return displayLink
         }()
     }

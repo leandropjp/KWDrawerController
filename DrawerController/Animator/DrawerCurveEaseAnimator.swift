@@ -34,7 +34,7 @@ open class DrawerCurveEaseAnimator: DrawerAnimator {
         case easeOut
         case easeInOut
         
-        internal func option() -> UIViewAnimationOptions {
+        internal func option() -> UIView.AnimationOptions {
             switch self {
             case .linear:
                 return .curveLinear
