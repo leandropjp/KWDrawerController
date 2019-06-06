@@ -138,8 +138,8 @@ open class DrawerFoldTransition: DrawerTransition {
                 CATransform3DMakeTranslation(foldList[0].frame.width * 2, 0, 0)
             )
             
-            foldList[0].shadowView.alpha = fabs(percentage)
-            foldList[1].shadowView.alpha = fabs(percentage)
+            foldList[0].shadowView.alpha = abs(percentage)
+            foldList[1].shadowView.alpha = abs(percentage)
             
             let afterDelta = content.drawerWidth - Float(foldList[1].frame.maxX)
             
@@ -168,8 +168,8 @@ open class DrawerFoldTransition: DrawerTransition {
                 CATransform3DMakeTranslation(foldList[0].frame.width * 2, 0, 0)
             )
             
-            foldList[0].shadowView.alpha = fabs(percentage)
-            foldList[1].shadowView.alpha = fabs(percentage)
+            foldList[0].shadowView.alpha = abs(percentage)
+            foldList[1].shadowView.alpha = abs(percentage)
             
         default:
             content.contentView.transform = .identity

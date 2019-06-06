@@ -41,7 +41,7 @@ func castOrThrow<T>(_ resultType: T.Type, _ object: Any) throws -> T {
 }
 
 public extension DrawerController {
-    public func openSide(_ side: DrawerSide) -> Completable {
+    func openSide(_ side: DrawerSide) -> Completable {
         return .create { [weak self] completable -> Disposable in
             guard let ss = self else {
                 completable(.error(RxCocoaError.unknown))
@@ -53,7 +53,7 @@ public extension DrawerController {
             return Disposables.create()
         }
     }
-    public func closeSide() -> Completable {
+    func closeSide() -> Completable {
         return .create { [weak self] completable -> Disposable in
             guard let ss = self else {
                 completable(.error(RxCocoaError.unknown))

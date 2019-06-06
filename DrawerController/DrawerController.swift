@@ -230,11 +230,11 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
     
     /// Actions
     @IBAction func openLeftSide(_ sender: Any) {
-        openSide(.left)
+        _ = openSide(.left)
     }
     
     @IBAction func openRightSide(_ sender: Any) {
-        openSide(.right)
+        _ = openSide(.right)
     }
     
     public func openSide(_ side: DrawerSide, completion: (()->())? = nil) {
@@ -874,8 +874,8 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
                 gestureLastPercentage = 0.0
             }
             
-            willAnimate(side: internalFromSide, percent: fabs(gestureLastPercentage))
-            didAnimate(side: internalFromSide, percent: fabs(gestureLastPercentage))
+            willAnimate(side: internalFromSide, percent: abs(gestureLastPercentage))
+            didAnimate(side: internalFromSide, percent: abs(gestureLastPercentage))
             
         case .changed:
             guard internalFromSide != .none else { return }
@@ -950,18 +950,18 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
                 }
             }
             
-            willAnimate(side: internalFromSide, percent: fabs(percentage))
-            didAnimate(side: internalFromSide, percent: fabs(percentage))
+            willAnimate(side: internalFromSide, percent: abs(percentage))
+            didAnimate(side: internalFromSide, percent: abs(percentage))
             
             gestureLastPercentage = percentage
             
         default:
             guard internalFromSide != .none else { return }
             
-            willCancelAnimate(side: internalFromSide, percent: fabs(gestureLastPercentage))
-            didCancelAnimate(side: internalFromSide, percent: fabs(gestureLastPercentage))
+            willCancelAnimate(side: internalFromSide, percent: abs(gestureLastPercentage))
+            didCancelAnimate(side: internalFromSide, percent: abs(gestureLastPercentage))
             
-            gestureLastPercentage = fabs(gestureLastPercentage)
+            gestureLastPercentage = abs(gestureLastPercentage)
             
             if internalFromSide == .left && !isGestureMoveLeft {
                 openSide(.left) { [weak self] in
@@ -972,7 +972,7 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
                     self?.gestureLastPercentage = -1.0
                 }
             } else {
-                if fabs(gestureLastPercentage) > 1.0 {
+                if abs(gestureLastPercentage) > 1.0 {
                     if internalFromSide == .left {
                         openSide(.left) { [weak self] in
                             self?.gestureLastPercentage = -1.0
@@ -1018,7 +1018,7 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
         guard let panGesture = gestureRecognizer as? UIPanGestureRecognizer else { return false }
         
         let translation = panGesture.translation(in: view)
-        guard fabs(translation.x) >= fabs(translation.y) else { return false }
+        guard abs(translation.x) >= abs(translation.y) else { return false }
         
         /// Set default values
         gestureBeginPoint = location

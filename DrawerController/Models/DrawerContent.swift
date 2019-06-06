@@ -123,7 +123,7 @@ public class DrawerContent {
         case .right:
             currentPercent = 1.0 - percentage
         case .none:
-            currentPercent = fabs(percentage)
+            currentPercent = abs(percentage)
         }
         
         if currentTransition === transition {

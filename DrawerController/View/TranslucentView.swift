@@ -177,7 +177,7 @@ internal class TranslucentView: UIView {
         get {
             if isInitialize {
                 var array = super.subviews
-                array.remove(at: array.index(of: translucentView)!)
+                array.remove(at: array.firstIndex(of: translucentView)!)
                 return array
             } else {
                 return super.subviews
